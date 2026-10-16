@@ -1,0 +1,104 @@
+body {
+	font-family: sans-serif;
+	background: #D9D9D9;
+	padding: 20px;
+}
+
+#dogs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	background: #E6EBF1;
+	width: 200px;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card h3 {
+	font-size: 16px;
+	margin: 10px 0 5px;
+}
+
+.card p {
+	color: #666;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	background-color: #f9f9f9;
+	color: #222;
+	line-height: 1.6;
+	padding: 2em;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form {
+	max-width: 550px;
+	margin: auto;
+	background: #E6EBF1;
+	padding: 1.5em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+select,
+ input {
+	display: block;
+	width: 100%;
+	padding: 0.6em;
+	font-size: 1em;
+	margin-top: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	margin-top: 1em;
+	padding: 0.5em 1.2em;
+	font-size: 1em;
+	color: #fff;
+	background-color: #0E297C;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+button:hover,
+button:focus {
+	background-color: rgb(193, 83, 83);
+	outline: 2px solid #000;
+	outline-offset: 2px;
+}
+
+.result {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 2em;
+	color: #152a60;
+}
