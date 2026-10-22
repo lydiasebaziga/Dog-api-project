@@ -54,10 +54,11 @@ function showData(data, temperament) {
     if (temperament && !dogTemperament.includes(temperament)) {
       continue;
     }
-
-    const image = dog.reference_image_id
-      ? `https://cdn2.thedogapi.com/images/${dog.reference_image_id}.jpg`
-      : "";
+    console.log("Dog", dog);
+    // if dog.image.url have value make it dog.image.url
+    // else make it the placeholder;
+    const image = dog.image.url ? dog.image.url : "https://placehold.co/300x200?text=No+Image";
+    
 
     dogsDiv.innerHTML += `
       <div class="card">
