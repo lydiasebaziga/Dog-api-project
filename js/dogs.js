@@ -57,12 +57,13 @@ function showData(data, temperament) {
     console.log("Dog", dog);
     // if dog.image.url have value make it dog.image.url
     // else make it the placeholder;
-    const image = dog.image.url ? dog.image.url : "https://placehold.co/300x200?text=No+Image";
-    
+    const image = dog.image.url
+      ? dog.image.url
+      : "https://placehold.co/300x200?text=No+Image";
 
     dogsDiv.innerHTML += `
       <div class="card">
-        <img src="${image}" alt="${dog.name}">
+        <img src="${image}" alt="${dog.name}" onerror="this.src='https://placehold.co/300x200?text=No+Image'">
         <h3>${dog.name}</h3>
         <p><strong>Temperament:</strong> ${dogTemperament}</p>
         <p><strong>Life span:</strong> ${dog.life_span}</p>
